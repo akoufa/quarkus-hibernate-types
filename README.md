@@ -5,7 +5,7 @@
 [![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/lorislab/quarkus-hibernate-types?logo=github&style=for-the-badge)](https://github.com/lorislab/quarkus-hibernate-types/releases/latest)
 [![Maven Central](https://img.shields.io/maven-central/v/org.lorislab.quarkus/quarkus-hibernate-types?logo=java&style=for-the-badge)](https://maven-badges.herokuapp.com/maven-central/org.lorislab.quarkus/quarkus-hibernate-types)
 
-This [Quarkus](https://quarkus.io/) hibernate types extension is based on the [https://github.com/vladmihalcea/hibernate-types](https://github.com/vladmihalcea/hibernate-types).
+This [Quarkus](https://quarkus.io/) Hibernate types extension is based on the [https://github.com/vladmihalcea/hibernate-types](https://github.com/vladmihalcea/hibernate-types).
 
 Changes:
 * remove unused methods
@@ -46,13 +46,13 @@ public class Data {
 
 Current implemented JSON types
 
-| Name   | Value  | typeClass | Class  |
-|---|---|---|---|
-| JsonTypes.JSON_STRING  | json  | JsonStringType.class | org.lorislab.quarkus.hibernate.types.json.JsonStringType  |
-| JsonTypes.JSON_BIN  | jsonb | JsonBinaryType.class | org.lorislab.quarkus.hibernate.types.json.JsonBinaryType  |
-| JsonTypes.JSON_BLOB  | jsonb-lob | JsonBlobType.class | org.lorislab.quarkus.hibernate.types.json.JsonBlobType  |
-| JsonTypes.JSON_NODE_STRING  | jsonb-node | JsonNodeStringType.class | org.lorislab.quarkus.hibernate.types.json.JsonNodeStringType  |
-| JsonTypes.JSON_NODE_BIN  | jsonb-node | JsonNodeBinaryType.class | org.lorislab.quarkus.hibernate.types.json.JsonNodeBinaryType  |
+| Name   | Value  | typeClass |
+|---|---|---|
+| JsonTypes.JSON_STRING  | json  | JsonStringType.class |
+| JsonTypes.JSON_BIN  | jsonb | JsonBinaryType.class |
+| JsonTypes.JSON_BLOB  | jsonb-lob | JsonBlobType.class |
+| JsonTypes.JSON_NODE_STRING  | jsonb-node | JsonNodeStringType.class |
+| JsonTypes.JSON_NODE_BIN  | jsonb-node | JsonNodeBinaryType.class |
 
 
 
